@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105be940-cb3c-46b5-85f9-555f892c031c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/produto/templates/produto/lista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templatetags/omfilters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
