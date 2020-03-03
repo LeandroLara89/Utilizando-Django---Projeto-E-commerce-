@@ -92,6 +92,7 @@ class AdicionarAoCarrinho(View):
         carrinho = self.request.session['carrinho']
 
         if variacao_id in carrinho:
+            # TODO: Variação existe no carrinho
             quantidade_carrinho = carrinho[variacao_id]['quantidade']
             quantidade_carrinho += 1
 
@@ -110,6 +111,7 @@ class AdicionarAoCarrinho(View):
             carrinho[variacao_id]['preco_quantitativo_promocional'] = preco_unitario_promocional * \
                 quantidade_carrinho
         else:
+            # TODO: Variação não existe no carrinho
             carrinho[variacao_id] = {
                 'produto_id': produto_id,
                 'produto_nome': produto_nome,
