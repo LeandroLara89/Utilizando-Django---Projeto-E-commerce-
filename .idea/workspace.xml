@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105be940-cb3c-46b5-85f9-555f892c031c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/produto/templates/produto/carrinho.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/templates/produto/carrinho.html" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templates/produto/carrinho.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parciais/_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parciais/_nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
