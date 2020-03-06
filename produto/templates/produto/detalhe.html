@@ -20,14 +20,14 @@
             <p class="lead">{{ produto.descricao_curta }}</p>
             <p class="lead">
                 {% if produto.preco_marketing_promocional %}
-                <span class="lead product-price" id="variation-preco-promocional">
+                <span id="variation-preco-promocional" class="lead product-price">
                     {{ produto.preco_marketing_promocional|formata_preco }}
                 </span>
-                <span class="lead product-old-price text-muted" id="variation-preco">
+                <span id="variation-preco" class="lead product-old-price text-muted">
                     {{ produto.preco_marketing|formata_preco }}
                 </span>
                 {% else %}
-                <span class="lead product-price" id="variation-preco">
+                <span id="variation-preco" class="lead product-price">
                     {{ produto.preco_marketing|formata_preco }}
                 </span>
                 {% endif %}
@@ -35,7 +35,7 @@
 
             <form action="{% url 'produto:adicionaraocarrinho' %}" id="form-add-to-cart">
                 <div class="form-group">
-                    <select class="form-control form-control-lg" id="select-variacoes" name="vid">
+                    <select id="select-variacoes" name="vid" class="form-control form-control-lg">
                         {% for variacao in produto.variacao_set.all %}
 
                         {% if variacao.preco_promocional %}
@@ -63,8 +63,8 @@
                 </div>
 
                 <div class="text-left">
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">
-                        <i aria-hidden="true" class="fa fa-shopping-cart"></i>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         Adicionar ao carrinho
                     </button>
                 </div>

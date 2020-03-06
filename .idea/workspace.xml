@@ -2,9 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105be940-cb3c-46b5-85f9-555f892c031c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/produto/templates/produto/resumodacompra.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/02/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/02/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/02/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/02/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/02/1_NsgZiHr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/02/1_NsgZiHr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/02/1_V4jXFJR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/02/1_V4jXFJR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/02/teste.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/02/teste.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/03/3bacf36f904339722f1a5609a2ea3c36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/03/3bacf36f904339722f1a5609a2ea3c36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/produto_imagens/2020/03/7eb9d706-b8e3-48d0-957e-25f4a722f944.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido/media/produto_imagens/2020/03/7eb9d706-b8e3-48d0-957e-25f4a722f944.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfil/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/migrations/0002_variacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/migrations/0002_variacao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produto/templates/produto/carrinho.html" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templates/produto/carrinho.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/templates/produto/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templates/produto/lista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/templatetags/omfilters.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templatetags/omfilters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parciais/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parciais/_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parciais/_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parciais/_head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/parciais/_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parciais/_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parciais/_pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parciais/_pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +65,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/teste/django-simple-ecommerce-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Music\Django ProjetoEcommerce\pedido\templates\pedido" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,9 +101,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1007" y="304" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583265139667" />
-    <state x="694" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1583433041833">
+    <state x="694" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1583516091776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="694" y="394" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583433041833" />
+    <state x="694" y="394" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583516091776" />
   </component>
 </project>

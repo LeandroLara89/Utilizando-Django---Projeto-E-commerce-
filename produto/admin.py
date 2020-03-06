@@ -1,10 +1,11 @@
 from django.contrib import admin
 from . import models
-#from .models import Produto outro mododo de puxa.
+
 
 class VariacaoInline(admin.TabularInline):
     model = models.Variacao
     extra = 1
+
 
 class ProdutoAdmin(admin.ModelAdmin):
     list_display = ['nome', 'descricao_curta',
@@ -13,8 +14,6 @@ class ProdutoAdmin(admin.ModelAdmin):
         VariacaoInline
     ]
 
+
 admin.site.register(models.Produto, ProdutoAdmin)
 admin.site.register(models.Variacao)
-
-
-

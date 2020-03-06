@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 {% load omfilters %}
 
 {% block titulo %}Produtos | {% endblock %}
@@ -15,7 +15,7 @@
 
                 {% if produto.imagem %}
                 <a href="{% url 'produto:detalhe' produto.slug %}">
-                    <img alt="{{ produto.nome }}" class="card-img-top" src="{{ produto.imagem.url }}">
+                    <img class="card-img-top" src="{{ produto.imagem.url }}" alt="{{ produto.nome }}">
                 </a>
                 {% endif %}
 
@@ -40,8 +40,8 @@
                     </div>
                 </div>
                 <div class="card-footer bg-transparent border-top-light-custom text-center">
-                    <a class="btn btn-primary btn-sm m-1 btn-block" href="{% url 'produto:detalhe' produto.slug %}">
-                        <i aria-hidden="true" class="fa fa-shopping-cart"></i>
+                    <a href="{% url 'produto:detalhe' produto.slug %}" class="btn btn-primary btn-sm m-1 btn-block">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         Comprar
                     </a>
                 </div>
